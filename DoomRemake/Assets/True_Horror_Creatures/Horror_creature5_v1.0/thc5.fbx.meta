@@ -1,0 +1,2248 @@
+fileFormatVersion: 2
+guid: 8b9befa2593ffd34394e7af1020382bd
+timeCreated: 1496490857
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: arm_IK.L
+    100006: arm_IK.R
+    100008: chest
+    100010: elbow_IK.L
+    100012: elbow_IK.L_end
+    100014: elbow_IK.R
+    100016: elbow_IK.R_end
+    100018: foot.L
+    100020: foot.R
+    100022: forearm.L
+    100024: forearm.R
+    100026: hand.L
+    100028: hand.L_end
+    100030: hand.R
+    100032: hand.R_end
+    100034: head
+    100036: hip
+    100038: hip.L
+    100040: hip.R
+    100042: jaw
+    100044: jaw_end
+    100046: neck
+    100048: Plane.001
+    100050: Plane.011
+    100052: root_bone
+    100054: shin.L
+    100056: shin.R
+    100058: shoulder.L
+    100060: shoulder.R
+    100062: spine1
+    100064: spine2
+    100066: //RootNode
+    100068: thc5_armature_O
+    100070: thigh.L
+    100072: thigh.R
+    100074: toe.L
+    100076: toe.L_end
+    100078: toe.R
+    100080: toe.R_end
+    400000: arm.L
+    400002: arm.R
+    400004: arm_IK.L
+    400006: arm_IK.R
+    400008: chest
+    400010: elbow_IK.L
+    400012: elbow_IK.L_end
+    400014: elbow_IK.R
+    400016: elbow_IK.R_end
+    400018: foot.L
+    400020: foot.R
+    400022: forearm.L
+    400024: forearm.R
+    400026: hand.L
+    400028: hand.L_end
+    400030: hand.R
+    400032: hand.R_end
+    400034: head
+    400036: hip
+    400038: hip.L
+    400040: hip.R
+    400042: jaw
+    400044: jaw_end
+    400046: neck
+    400048: Plane.001
+    400050: Plane.011
+    400052: root_bone
+    400054: shin.L
+    400056: shin.R
+    400058: shoulder.L
+    400060: shoulder.R
+    400062: spine1
+    400064: spine2
+    400066: //RootNode
+    400068: thc5_armature_O
+    400070: thigh.L
+    400072: thigh.R
+    400074: toe.L
+    400076: toe.L_end
+    400078: toe.R
+    400080: toe.R_end
+    4300000: Plane.001
+    4300002: Plane.011
+    7400000: thc5_armature_O|attack1
+    7400002: thc5_armature_O|attack2
+    7400004: thc5_armature_O|attack3
+    7400006: thc5_armature_O|death1
+    7400008: thc5_armature_O|death_fall
+    7400010: thc5_armature_O|hit1
+    7400012: thc5_armature_O|hit2
+    7400014: thc5_armature_O|howl
+    7400016: thc5_armature_O|idle
+    7400018: thc5_armature_O|idle_battle
+    7400020: thc5_armature_O|laugh
+    7400022: thc5_armature_O|rise_up
+    7400024: thc5_armature_O|run
+    7400026: thc5_armature_O|rx
+    7400028: thc5_armature_O|walk
+    7400030: thc5_armature_O|walk_back
+    9500000: //RootNode
+    13700000: Plane.001
+    13700002: Plane.011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''thc5'' conversion warning: ''thc5_armature_O/root_bone/hip/spine1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: thc5_armature_O|attack1
+      takeName: thc5_armature_O|attack1
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|attack2
+      takeName: thc5_armature_O|attack2
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|attack3
+      takeName: thc5_armature_O|attack3
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|death1
+      takeName: thc5_armature_O|death1
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|death_fall
+      takeName: thc5_armature_O|death_fall
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|hit1
+      takeName: thc5_armature_O|hit1
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|hit2
+      takeName: thc5_armature_O|hit2
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|howl
+      takeName: thc5_armature_O|howl
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|idle
+      takeName: thc5_armature_O|idle
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|idle_battle
+      takeName: thc5_armature_O|idle_battle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|laugh
+      takeName: thc5_armature_O|laugh
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|rise_up
+      takeName: thc5_armature_O|rise_up
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|run
+      takeName: thc5_armature_O|run
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|walk
+      takeName: thc5_armature_O|walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: thc5_armature_O|walk_back
+      takeName: thc5_armature_O|walk_back
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Plane.001
+        weight: 0
+      - path: Plane.011
+        weight: 0
+      - path: thc5_armature_O
+        weight: 1
+      - path: thc5_armature_O/root_bone
+        weight: 1
+      - path: thc5_armature_O/root_bone/arm_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.L/elbow_IK.L/elbow_IK.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R
+        weight: 0
+      - path: thc5_armature_O/root_bone/arm_IK.R/elbow_IK.R/elbow_IK.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.L/thigh.L/shin.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/hip.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/hip.R/thigh.R/shin.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/neck/head/jaw/jaw_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.L/forearm.L/arm.L/hand.L/hand.L_end
+        weight: 0
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R
+        weight: 1
+      - path: thc5_armature_O/root_bone/hip/spine1/spine2/chest/shoulder.R/forearm.R/arm.R/hand.R/hand.R_end
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: thc5(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Plane.001
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Plane.011
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thc5_armature_O
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root_bone
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: arm_IK.L
+      position: {x: -.358397603, y: .196632072, z: -.05559301}
+      rotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: 1, y: .999999702, z: .999999702}
+      transformModified: 1
+    - name: elbow_IK.L
+      position: {x: .190333366, y: .46017465, z: .395384222}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.L_end
+      position: {x: -0, y: .29036665, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arm_IK.R
+      position: {x: .346451312, y: .185163647, z: .353447556}
+      rotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
+      scale: {x: 1, y: .999999702, z: .999999702}
+      transformModified: 1
+    - name: elbow_IK.R
+      position: {x: -.166876689, y: .46017462, z: .407330483}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_IK.R_end
+      position: {x: -0, y: .29036665, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip
+      position: {x: -1.67638063e-08, y: .496889055, z: 1.0658141e-14}
+      rotation: {x: 1, y: 2.25001258e-15, z: -7.54979084e-08, w: -2.98023153e-08}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: spine1
+      position: {x: 8.14907197e-10, y: -8.3964542e-09, z: -6.86850354e-09}
+      rotation: {x: -.999515176, y: -6.06224226e-09, z: -4.36932268e-08, w: -.0311351679}
+      scale: {x: .99999994, y: .999998868, z: .999980867}
+      transformModified: 1
+    - name: spine2
+      position: {x: 3.52310153e-10, y: .148006096, z: -1.15340582e-08}
+      rotation: {x: -2.33920505e-09, y: .998566628, z: .0535234772, w: 1.94424175e-07}
+      scale: {x: .999999821, y: .999997139, z: 1.00000262}
+      transformModified: 1
+    - name: chest
+      position: {x: 1.00101072e-09, y: .14069885, z: 6.73682832e-10}
+      rotation: {x: -.263288796, y: 3.21520545e-12, z: 3.97559923e-08, w: .964717031}
+      scale: {x: .999999762, y: 1.00000548, z: .999994755}
+      transformModified: 1
+    - name: neck
+      position: {x: 1.94019889e-09, y: .263070196, z: 1.23863755e-08}
+      rotation: {x: -.0243813638, y: .00662060874, z: .0363062248, w: .999021292}
+      scale: {x: 1.00000012, y: 1.00000501, z: .999994993}
+      transformModified: 1
+    - name: head
+      position: {x: 2.93884e-10, y: .219778314, z: 1.63531535e-08}
+      rotation: {x: -.429782361, y: -4.54747297e-13, z: -3.75725335e-08, w: .902932525}
+      scale: {x: .999999821, y: 1.00001633, z: .999983013}
+      transformModified: 1
+    - name: jaw
+      position: {x: 6.58138122e-09, y: .0536428206, z: -.0912701637}
+      rotation: {x: -.324366659, y: 5.63515357e-07, z: -2.21722644e-07, w: .945931435}
+      scale: {x: 1.00000048, y: 1.00000358, z: .999997258}
+      transformModified: 1
+    - name: jaw_end
+      position: {x: -0, y: .137353927, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.L
+      position: {x: 1.94019889e-09, y: .263070196, z: 1.23863755e-08}
+      rotation: {x: -.151858494, y: -.249616653, z: .620266259, w: -.727942586}
+      scale: {x: .999990642, y: 1.00000274, z: 1.00000584}
+      transformModified: 1
+    - name: forearm.L
+      position: {x: -8.32951557e-08, y: .246072158, z: 0}
+      rotation: {x: -.01076674, y: .510998726, z: -.0178565066, w: .859328508}
+      scale: {x: 1.00000191, y: 1.00000179, z: .999991119}
+      transformModified: 1
+    - name: arm.L
+      position: {x: -2.98023206e-08, y: .456976563, z: 1.86264504e-09}
+      rotation: {x: .00666319486, y: .139426395, z: -.324062556, w: .935681283}
+      scale: {x: 1.00000477, y: .999980628, z: .999997854}
+      transformModified: 1
+    - name: hand.L
+      position: {x: 2.235174e-08, y: .490956336, z: 1.18743619e-08}
+      rotation: {x: -.0521927997, y: .66205281, z: .149138555, w: .732611656}
+      scale: {x: .999982893, y: 1.00002575, z: .999971151}
+      transformModified: 1
+    - name: hand.L_end
+      position: {x: -0, y: .175049156, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder.R
+      position: {x: 1.94019889e-09, y: .263070196, z: 1.23863755e-08}
+      rotation: {x: .297375351, y: -.0815732479, z: .823811531, w: .475655705}
+      scale: {x: .999991238, y: 1.00000322, z: 1.00000584}
+      transformModified: 1
+    - name: forearm.R
+      position: {x: 1.73225985e-07, y: .246072069, z: 1.117587e-08}
+      rotation: {x: -.152398959, y: -.540299535, z: -.0304748379, w: .82699585}
+      scale: {x: 1.00001478, y: .99999845, z: .99998337}
+      transformModified: 1
+    - name: arm.R
+      position: {x: 2.14204174e-08, y: .456976593, z: -3.25962879e-09}
+      rotation: {x: .00964513421, y: .189572319, z: -.0215684474, w: -.981582522}
+      scale: {x: .999994874, y: .999988794, z: 1.00000238}
+      transformModified: 1
+    - name: hand.R
+      position: {x: -4.470348e-08, y: .490956396, z: 1.49011603e-08}
+      rotation: {x: -.0521927923, y: -.662052691, z: -.149138719, w: .732611716}
+      scale: {x: .999995291, y: 1.00001371, z: .999970615}
+      transformModified: 1
+    - name: hand.R_end
+      position: {x: -0, y: .175049156, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip.L
+      position: {x: 1.74622969e-10, y: .158941865, z: -1.97906025e-09}
+      rotation: {x: -.576504052, y: .409442306, z: .576504111, w: .409442365}
+      scale: {x: .999999702, y: .999999523, z: .999999821}
+      transformModified: 1
+    - name: thigh.L
+      position: {x: -2.32830621e-09, y: .0695995465, z: 1.86264504e-09}
+      rotation: {x: .772400022, y: .0451795869, z: -.0188643616, w: .633246481}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: shin.L
+      position: {x: 1.86264504e-09, y: .165388152, z: -5.587935e-09}
+      rotation: {x: .0214048605, y: -.112848118, z: .338907689, w: .933781981}
+      scale: {x: 1.00000036, y: .99999994, z: 1.00000036}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -1.97906025e-09, y: .14229694, z: 7.56699536e-10}
+      rotation: {x: .385324299, y: .66089642, z: -.386091501, w: .515436232}
+      scale: {x: .999999523, y: .999999344, z: 1.00000024}
+      transformModified: 1
+    - name: toe.L
+      position: {x: 1.86264504e-09, y: .0822580233, z: 5.587935e-09}
+      rotation: {x: -.157662228, y: -.924404383, z: .339126825, w: -.0749152452}
+      scale: {x: 1.0000006, y: 1.00000024, z: .999999583}
+      transformModified: 1
+    - name: toe.L_end
+      position: {x: -0, y: .0527592078, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hip.R
+      position: {x: 1.74622969e-10, y: .158941865, z: -1.97906025e-09}
+      rotation: {x: -.576504171, y: -.409442246, z: -.576504052, w: .409442425}
+      scale: {x: .99999994, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: thigh.R
+      position: {x: 6.28642693e-09, y: .069599539, z: -3.72529008e-09}
+      rotation: {x: -.798641324, y: .0123469215, z: .00556445075, w: -.601654828}
+      scale: {x: 1.00000012, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: shin.R
+      position: {x: -7.68341035e-09, y: .165388152, z: 8.14907164e-09}
+      rotation: {x: -.0617569089, y: -.0962421298, z: .30231601, w: -.946323752}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: foot.R
+      position: {x: -3.85625709e-09, y: .142296925, z: -6.98491887e-09}
+      rotation: {x: -.328157246, y: .643010378, z: -.44063288, w: -.533566356}
+      scale: {x: .999999583, y: .999999642, z: .999999166}
+      transformModified: 1
+    - name: toe.R
+      position: {x: -3.14321347e-09, y: .0822580233, z: -3.02679815e-09}
+      rotation: {x: .157662168, y: -.924404502, z: .339126617, w: .0749153048}
+      scale: {x: .99999994, y: 1.00000167, z: 1}
+      transformModified: 1
+    - name: toe.R_end
+      position: {x: -0, y: .0527592078, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

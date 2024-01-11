@@ -1,0 +1,346 @@
+DOCUMENTATION
+
+
+This asset contains a large collection of different Sci-Fi Displays for Builtin RP and URP. 
+There are also prefabs for some individual parts e.g. screws, pipes, mounts, lights and so on, if you want add more of them to a certain display. 
+These high quality displays are perfect for desktops, consoles, and high end mobile devices.
+
+
+Please note:
+
+When importing the asset to your project you only need to import the desired render pipeline folder (Builtin RP, URP, HDRP) and the General folder + Demo and Post Processing if you want.
+If you switch between Builtin RP demo, URP demo and HDRP demo don‘t forget to remove or add the RenderPipelineAsset in Project Settings -> Graphics -> Scriptable Render Pipeline Settings. If you want to use the URP or HDRP demo don't forget to install URP or HDRP from the package manager.
+
+You can find the RenderPipelineAsset in URP/RenderPipeline/UniversalRenderPipelineAsset
+
+DisplayRotation script:
+The Com Display has a rotation script to rotate the displays axe between -90 and +90 degrees. You can define the rotation speed, rotation angle and delay. 
+The delay defines the time in seconds after which the rotation starts. If you need a longer time than 25 seconds, just increase the Range max. value in the script.
+You can also change the rotation axe if you want to use the script somewhere else. This script must be attached to the Top_Mount_Axe and the rotation axe must be set to X for the Com Display.
+
+MoveTelescopeMount script:
+This script is used to move the telescope mount up to a percentage value between 0% - 100%. You can define the move distance, move speed and delay.
+The move speed defines how fast the mount moves upwards.
+You can also define a delay after which the telescope mount starts moving up. If you need a longer time than 25 seconds, just increase the Range max. value in the script.
+This script must be attached to the Telescope_Mount.
+
+LaptopDisplayRotation script:
+This script rotates the lower and upper part of the laptop displays.
+You can define a delay when the rotation starts. You can also define the rotation angle and rotation speed.
+Feel free to extend the script for your own needs.
+
+LaptopSideDisplay script:
+This script moves the side displays out of the upper display or move them into the zpper display. You can define the start and end position and the speed.
+You can also define a delay. The static MoveOut property defines the direction.
+This is just an example script. You can extend it for your needs.
+
+SciFiTablet03ButtonController:
+This script contols the button animation of the Sci_Fi_Tablet_03. The tablet has a UI canvas with transparent buttons above all buttons to trigger the animation by a mouse click.
+If you don't need the button animation you can remove the ButtonPanel from the canvas and remove the script.
+
+
+Texture resolution:
+
+4096 x 4096 textures for main display parts.
+512 x 512, 1024 x 1024 and 2048 x 2048 textures for small objects like screws and pipes or mask maps.
+
+
+Included:
+
+- A large number of different display prefabs ready to use with Builtin RP, URP and HDRP.
+- 45 degrees and 90 degrees ceiling mounts for big displays.
+- Prefabs for individual parts for Builtin RP, URP and HDRP.
+- Procedural textures.
+- Materials for Builtin RP, URP and HDRP.
+- Demo scene for Builtin RP, URP and HDRP.
+- 3D Models.
+- Custom PBR shader for URP to use detail textures, occlusion texture and metallic alpha smoothness in URP.
+- Continuous updates.
+
+Polygons:
+
+Sci-Fi Desktop PC: 369 - 1934
+Sci-Fi Display Large: 145 - 5418
+Sci-Fi Display Small: 12 - 20665
+Sci-Fi Wall Display Small: 32 - 6163
+Sci-Fi Wall Display Large: 1111 - 1940
+Sci-Fi Wall Display 2: 18 - 4397
+Sci-Fi Commercial Display: 122 - 1004
+Fingerprint Scanner: 161 - 1158
+Com Display: 10 - 313
+Tablet: 1 - 70
+Ceiling Display 01: 44 - 167
+Laptop: 6 - 422
+Wall_Display_04: 1162
+Wall_Display_04_LP: 371
+Com Display Small 01: 889
+Com Display Small 01 LP: 525
+Sci-Fi Tablet 02: 745
+Sci-Fi Tablet 02 LP: 398
+Sci_Fi_Tablet_03: 2639
+Sci_Fi_Tablet_03_LP: 1326
+plexiglass_holder: 173
+plexiglass_holder_LP: 81
+Elevator_Display_01: 562 (including two call buttons)
+Elevator_Display_01_LP: 283 (including two LP call buttons)
+Promo_Display_01: 338
+Promo_Display_01_LP: 160
+Screws: 242 - 684
+Promo_Display_03: 1119
+Promo_Display_03_LP: 545
+Promo_Display_04: 887
+Promo_Display_04_LP: 270
+Promo_Display_05: 10131
+Promo_Display_05_LP: 5117
+Promo_Display_06: 1698
+Promo_Display_06_LP: 812
+Wall_Display_03: 718
+Wall_Display_03_LP: 168
+Wall_Display_05: 476
+Wall_Display_05_LP: 176
+Com_Display_03: 4007
+Com_Display_03_LP: 1858
+Large_Display_01: 6885
+Large_Display_01_LP: 3464
+Large_Display_01: 4868
+Science_Display_01: 9816
+Science_Display_01_LP: 5238
+Sci-Fi Phone High Poly: 8147
+Sci-Fi Phone Low Poly: 857
+Small Pipes: 208
+Long Pipe: 740
+Phone Dock: 138
+45 degrees ceiling mount: 50
+90 degrees ceiling mount: 72
+Info_Display_01: 1261
+Info_Display_01_LP: 615
+Info_Display_01: 2729
+Info_Display_01_LP: 1474
+
+Please note: Background enviroment in the Videos and screenshots are NOT included in the package.
+
+Tip:
+
+To reduce the polygon count you can remove some screws from the display. I will optimize screws in a future build.
+At some displays you can increase or reduce the metallic alpha smoothness effect in the materials shader editor with the smoothness slider.
+
+
+If you have any question please contact me:
+
+https://forum.unity.com/threads/released-sci-fi-displays.874828
+
+dirk.jacobasch@outlook.com
+
+
+-------------------------------------------
+
+Update 2.8
+
+Added a new display and a plexi glass display holder. The Sci_Fi_Tablet_03 is rigged and animated. All buttons are interactable and animated.
+
+- Sci_Fi_Tablet_03
+- Sci_Fi_Tablet_03_LP
+
+
+Update 2.7
+
+Added a new display.
+
+New Prefabs:
+
+- Large_Display_02
+
+Optimization:
+Reduced the poly count of Sci-Fi Wall Display Large by ~ 50%
+Fixed small problems.
+
+
+Update 2.6
+
+Added a new display.
+
+-Info_Display_02
+-Info_Display_02_LP
+
+
+Update 2.5
+
+Added a new display.
+
+-Info_Display_01
+-Info_Display_01_LP
+
+
+Update 2.4
+
+Added a new display.
+Changed folder structure.
+
+- Promo_Display_06
+- Promo_Display_06_LP
+- Individual components
+
+Update 2.3
+
+Added a new display.
+
+- Science_Display_01
+- Science_Display_01_LP
+- Individual components
+
+Update 2.2
+
+Added a new display.
+
+- Promo_Display_05
+- Promo_Display_05_LP
+- Individual components
+
+
+Update 2.1
+
+Added a new display.
+
+New Prefabs:
+- Large_Display_01
+- Large_Display_01_LP
+
+Update 2.0
+
+Added two new displays. 
+
+New Prefabs:
+- Wall_Display_05
+- Wall_Display_05_LP
+- Com_Display_03
+- Com_Display_03_LP
+
+
+Update 1.9
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+Added three new displays. 
+Added metallic alpha smoothness to the 45 and 90 degrees ceiling mounts.
+
+New Prefabs:
+- Promo_Display_03
+- Promo_Display_03_LP
+- Promo_Display_04
+- Promo_Display_04_LP
+- Wall_Display_03
+- Wall_Display_03_LP
+- 90_Degrees_Ceiling_Mount_White
+
+Update 1.8
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+This update includes a new displays.
+
+New Prefabs:
+•  Wall_Display_04
+•  Wall_Display_04_LP
+
+Update 1.7.1
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Increased the size of the Com_Display_Small display by 20%. The base is now 1.2 meters high.
+
+
+
+Update 1.7
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+This update includes four new displays.
+
+•  Added a new tablet with UI canvas. Also available as low poly.
+•  Added a new com display with UI canvas. Also available as low poly.
+•  Added a new elevator display with UI canvas. Also available as low poly.
+•  Added a new promo display with UI canvas. Also available as low poly.
+•  Added occlusion texture and metallic alpha channel smoothness to the URP shader.
+
+New Prefabs:
+•  Com_Display_Small_Blue_01
+•  Com_Display_Small_Blue_01_LP
+•  Com_Display_Small_Gray_01
+•  Com_Display_Small_Gray_01_LP
+•  Com_Display_Small_Orange_01
+•  Com_Display_Small_Orange_01_LP
+
+•  Sci-Fi_Tablet_02
+•  Sci-Fi_Tablet_02_LP
+
+•  Elevator_Display_01
+•  Elevator_Display_01_LP
+
+•  Promo_Display_02
+•  Promo_Display_02_LP
+
+
+Update 1.6
+
+• Added a new ceiling display with UI canvas.
+• Added detail mask to the URP shader.
+• Fixed small bugs.
+
+
+Update 1.5
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Added a laptop in three variations (open, closed and animated). Four different colored keyboard prefabs are included (red, green, blue and orange). All screens have a canvas.
+• Added detail textures in 2K and 1K.
+
+
+Update 1.4
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Added two new displays.
+• Optimized Sci-Fi Wall Display 02 sub frame mount.
+• The number of polygons has been greatly reduced in the Sci-Fi Wall Display 02 detail meshes.
+• The number of polygons has been greatly reduced in the Sci-Fi Wall Display large and small connector meshes.
+• Fixed small bugs.
+• Changed folder structure slightly.
+
+New displays:
+• Added Com Display in black, red, orange and white. The axe of the Com Display can be rotated with a script included in the package. There is also a script to move the telescope axe up to a value between 0% - 100%. This display has a UI Canvas.
+• Added Tablet in metal and white. This tablet has a UI Canvas.
+
+
+Update 1.3
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Textures optimized to reduce disk usage.
+• Reduced materials per model to reduce draw calls where possible without loosing configuration freedom.
+• Polygons reduced on a few meshes.
+
+
+UPDATE 1.2
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Added HDRP support
+• Added a new fingerprint scanner display portrait and landscape
+
+
+UPDATE 1.1
+
+IMPORTANT: Before importing a new version into your project, please backup your project.
+
+• Added two new displays.
+• Added new mounts.
+• Added detail textures for Builtin RP and URP to increase visual quality.
+• Added a custom PBR shader to use detail textures in URP.
+• Reorganized folder structure.
+
+New displays:
+• Sci-Fi Commercial Display in 3 varants with default wall mount, 45 degrees ceiling mount and 90 degrees ceiling mount.
+• Sci-Fi Wall Display 2 in 3 varants with default wall mount, 45 degrees ceiling mount and 90 degrees ceiling mount.
+
+New mounts:
+• 45 degree ceiling mount
+• 90 degree ceiling mount
