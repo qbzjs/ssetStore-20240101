@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-   public enum BulletType {   
+public enum BulletType {   
        SHOTGUN,
         ASSAULT_RIFLE,
         PISTOL,

@@ -1,15 +1,34 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class AmmoManager : MonoBehaviour
 {
+    #region FIELDS
+
     public static AmmoManager Instance;
 
+    [Header("General Settings")]
     //This is the pool for ammo of all weapon types.
-    [SerializeField] private Dictionary<WeaponType, int> ammoPool = new Dictionary<WeaponType, int>();
+    [SerializeField]
+    private Dictionary<WeaponType, int> ammoPool = new Dictionary<WeaponType, int>();
+
+    [Header("Ammo Pool Options")] [SerializeField]
+    private bool InfiniteAmmo = false;
+
+    [Header("MAX AMMO VALUES PER WEAPON")] [SerializeField]
+    private Dictionary<WeaponType, int> weaponsMaxAmmoAmount = new Dictionary<WeaponType, int>();
+
+    #endregion
+
+    #region PROPERTIES
+
+    #endregion
+
+    #region METHODS
 
     void Awake()
     {
@@ -33,7 +52,7 @@ public class AmmoManager : MonoBehaviour
         {
             if (!ammoPool.ContainsKey(WeaponType))
             {
-                ammoPool.Add(WeaponType, GetDefaultAmmoForGunType(WeaponType));
+                ammoPool.Add(WeaponType, weaponsMaxAmmoAmount[WeaponType]);
             }
             else
             {
@@ -42,49 +61,116 @@ public class AmmoManager : MonoBehaviour
         }
     }
 
-    //normally this would be set in the inspector but this is incase the user forgets the default values of this list.
-    private int GetDefaultAmmoForGunType(WeaponType weaponType)
+    //I might do this or i might just make it get done by the editor by the player.
+    void InitializeWeaponsMaxAmmo()
+    {
+        foreach (WeaponType WeaponType in Enum.GetValues(typeof(WeaponType)))
+        {
+            if (!weaponsMaxAmmoAmount.ContainsKey(WeaponType))
+            {
+                weaponsMaxAmmoAmount.Add(WeaponType, MaxAmmoForWeaponsDefaultValue(WeaponType));
+            }
+            else
+            {
+                Debug.Log("The weapons max ammo is already being saved in the dictionary!");
+            }
+        }
+    }
+
+    private int MaxAmmoForWeaponsDefaultValue(WeaponType weaponType)
     {
         switch (weaponType)
         {
-            case WeaponType.SMG:
-                return 360;
-            case WeaponType.SHOTGUN:
-                return 120;
-            case WeaponType.SPECIAL:
-                return 80;
             case WeaponType.MELEE:
                 return -1;
-            case WeaponType.PISTOL:
-                return 60;
-            case WeaponType.MINIGUN:
-                return 2000;
-            case WeaponType.ASSAULT_RIFLE:
-                return 300;
-            case WeaponType.ROCKET_LAUNCHER:
-                return 30;
             case WeaponType.GRENADE_LAUNCHER:
-                return 30;
+                return 50;
+            case WeaponType.ROCKET_LAUNCHER:
+                return 50;
+            case WeaponType.ASSAULT_RIFLE:
+                return 360;
+            case WeaponType.SHOTGUN:
+                return 80;
+            case WeaponType.MINIGUN:
+                return 2500;
+            case WeaponType.PISTOL:
+                return 100;
+            case WeaponType.SMG:
+                return 300;
+            case WeaponType.SPECIAL:
+                return 60;
             default:
                 return 0;
         }
-
-        return 0;
+    }
+    
+    public bool CheckIfAmmoEmpty(WeaponType weaponType)
+    {
+        return ammoPool[weaponType] <= 0;
     }
 
-
-    //Use this to get the correct ammo type for the weapon type of the weapon we are using!
-    public int GetAmmo(WeaponType weaponType)
+    public int GetAmmoAmountForReload(WeaponType weaponType, int ClipSize)
     {
-        return ammoPool.ContainsKey(weaponType) ? ammoPool[weaponType] : 0;
-    }
-
-    //This is maybe going to be used
-    public void UseAmmoManagerAmmo(WeaponType weaponType, int ammoAmountToUse)
-    {
-        if (ammoPool.ContainsKey(weaponType))
+        if (ammoPool[weaponType] - ClipSize >= 0)
         {
-            ammoPool[weaponType] = Mathf.Max(0, ammoPool[weaponType] - ammoAmountToUse);
+            ammoPool[weaponType] -= ClipSize;
+            return ClipSize;
+        }
+        else
+        {
+            ammoPool[weaponType] -= ammoPool[weaponType];
+            return ammoPool[weaponType];
         }
     }
+
+    public void AddAmmoCertainGun(WeaponType weaponType, int AmmoAmount)
+    {
+        ammoPool[weaponType] += AmmoAmount;
+    }
+
+    
+    
+    public void AddAmmoAllWeapons(int ammoAmount)
+    {
+        foreach (var weapon in ammoPool.Keys)
+        {
+            ammoPool[weapon] += ammoAmount;
+        }
+    }
+
+    public void RemoveAmmoFromWeapon(WeaponType weaponType, int ammoAmount)
+    {
+        ammoPool[weaponType] -= ammoAmount;
+    }
+
+    public void RemoveAllWeaponAmmo()
+    {
+        foreach (var weapon in ammoPool.Keys)
+        {
+            ammoPool[weapon] += 0;
+        }
+    }
+
+    //This function changes the max ammo of the weapon type that can be possibly stored.
+    public void ChangeWeaponsTotalMaxAmmo(WeaponType weaponType, int newMaxAmmo)
+    {
+        weaponsMaxAmmoAmount[weaponType] = newMaxAmmo;
+    }
+
+    public void SetInfinteAmmoAllWeapons()
+    {
+        foreach (var weapon in ammoPool.Keys)
+        {
+            ammoPool[weapon] = 9999999;
+        }
+
+        InfiniteAmmo = true;
+    }
+    
+    //This will be done in the future as right now its pointless and i have to change some stuff to make it feasible, so maybe.
+    public void SetInfinteAmmoForWeapon()
+    {
+    }
+    
+    #endregion
 }

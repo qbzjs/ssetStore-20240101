@@ -7,6 +7,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "WeaponData", menuName = "POOF MEDIA/WeaponSystem/Create Weapon/WeaponData")]
 public class Weapon : ScriptableObject
 {
+    [Header("Gun General Settings")] [SerializeField]
+    private int GunLevel = 1;
+    [SerializeField]private GameObject GunObject;
+    [SerializeField]private Vector3 GunPositionOffset;
     [SerializeField] private WeaponType gunType = WeaponType.MELEE;
 
     [Header("Gun Sound Effects")]
@@ -21,16 +25,8 @@ public class Weapon : ScriptableObject
     private int currentAmmoInClip = 30;
     [SerializeField]
     private int maxAmmoInClip = 30;
-    [SerializeField]
-    private int totalAmmoForWeapon = 240;
-    
-    //Add in the eventual ammo settings so we can pick the bullet type using the scriptable objects systems for storing data for damage, pen, and what not
+    [SerializeField] private Bullet BulletType;
 
-    [Header("Gun General Settings")] [SerializeField]
-    private int GunLevel = 1;
-    [SerializeField]private GameObject GunObject;
-    [SerializeField]private Vector3 GunPositionOffset;
-    
     [Header("Gun Reload Settings")] 
     [SerializeField] private float reloadTime;
 
