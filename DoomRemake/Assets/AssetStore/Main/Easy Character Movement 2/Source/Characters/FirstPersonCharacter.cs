@@ -147,6 +147,8 @@ namespace EasyCharacterMovement
 
         protected InputAction cursorUnlockInputAction { get; set; }
 
+        
+        
         #endregion
 
         #region INPUT ACTION HANDLERS
